@@ -67,7 +67,7 @@ const createOrder = async (cart) => {
                 currency_code: "MXN",
                 value: cart.quantity,
             },
-            descripcion:cart.descripcion
+            description:cart.descripcion
         },
     ],
 };
