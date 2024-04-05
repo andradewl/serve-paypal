@@ -151,7 +151,7 @@ app.post("/api/orders/:orderID/capture", async (req, res) => {
 
 // serve index.html
 app.get("/", (req, res) => {
-    console.log("Pagos con paypal"+ req,res)
+    res.send("<h1>¡Hola!</h1>");
 });
 
 app.listen(PORT, () => {
